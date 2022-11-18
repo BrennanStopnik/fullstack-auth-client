@@ -1,9 +1,9 @@
-
+const currentYear = new Date().getFullYear();
 
 export const Footer = () => {
   return (
-    <div>
-      <h1>Footer</h1>
-    </div>
+    <footer className='footer'>
+      <p>Copyright © {currentYear} Stopnik Inc.</p>
+    </footer>
   );
 }
